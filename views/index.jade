@@ -1,6 +1,17 @@
-extends layout
-
+extends header
 block content
-	div.container
-		h1 Program Name
-		p Hello World
+	div
+		div.jumbotron.animated.slideInDown
+			h1: center Halo NodeJS
+		div.container
+			div.panel.panel-info.animated.fadeInRight
+				div.panel-heading
+					h3.panel-title
+					i.fa.fa-list  Panel Info
+				div.panel-body Panel Konten
+
+			div.panel.panel-danger.animated.fadeInLeft
+				div.panel-heading
+					h3.panel-title 
+					i.fa.fa-list  Panel Danger
+				div.panel-body Panel Konten
